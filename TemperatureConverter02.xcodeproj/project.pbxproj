@@ -12,6 +12,7 @@
 		791FEE6323CFE20E00C09884 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791FEE6123CFE20E00C09884 /* Main.storyboard */; };
 		791FEE6523CFE21200C09884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 791FEE6423CFE21200C09884 /* Assets.xcassets */; };
 		791FEE6823CFE21200C09884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 791FEE6623CFE21200C09884 /* LaunchScreen.storyboard */; };
+		791FEE7023CFE28E00C09884 /* TemperatureConverter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 791FEE6F23CFE28E00C09884 /* TemperatureConverter.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		791FEE6423CFE21200C09884 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		791FEE6723CFE21200C09884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		791FEE6923CFE21200C09884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		791FEE6F23CFE28E00C09884 /* TemperatureConverter.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TemperatureConverter.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		791FEE5C23CFE20D00C09884 /* TemperatureConverter02 */ = {
 			isa = PBXGroup;
 			children = (
+				791FEE6F23CFE28E00C09884 /* TemperatureConverter.swift */,
 				791FEE5D23CFE20D00C09884 /* AppDelegate.swift */,
 				791FEE5F23CFE20D00C09884 /* ViewController.swift */,
 				791FEE6123CFE20E00C09884 /* Main.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				791FEE7023CFE28E00C09884 /* TemperatureConverter.swift in Sources */,
 				791FEE6023CFE20D00C09884 /* ViewController.swift in Sources */,
 				791FEE5E23CFE20D00C09884 /* AppDelegate.swift in Sources */,
 			);
